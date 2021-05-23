@@ -1,6 +1,6 @@
 <div class = "acount">
   <div class = "name">
-    <a href = "#">Jim</a>
+    <%= link_to current_user.name,edit_user_path(current_user) %>
   </div>
   <div class = chat_create>
     <a href = "#">チャットを作成する</a>
